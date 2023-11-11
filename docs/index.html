@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- styles import -->
+    <link rel="stylesheet" href="static/styles/headers.css">
+    <link rel="stylesheet" href="./static/styles/index.css">
+    <link rel="stylesheet" href="./static/styles/diary.css">
+
+    <!-- Nice Edit text editor -->
+    <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+
+
+
+    <title>My First Story</title>
+</head>
+<body>
+    <header class="index-page">
+        <div id="left">
+            <img src="./static/images/mylogo.png" alt="logohere" width="50pt">
+        </div>
+        <div id="right">
+            <a href="http://signin">My Stories</a>
+            <a href="http://signin">Sign in</a>
+            <a href="http://signup">Sign up</a>
+        </div>
+    </header>
+    <section class="text-editor">
+        <div class="properties">
+            <input type="date">
+            <label for="subject"></label>
+            <input type="subject" name="subject" id="subject">
+            <label for="category"></label>
+            <select name="category" id="category"></select>
+            <label for="tone"></label>
+            <select name="tone" id="tone"></select>
+        </div>
+        <!-- <textarea name="" id="" cols="30" rows="10"></textarea> -->
+        <div id="editor"></div>
+    </section>
+    <section class="file-manager">
+        <button type="button">save</button>
+        <button type="button">new</button>
+        <button type="button">insert</button>
+    </section>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
+<script src="./static/scripts/index.js"></script>
+</html>

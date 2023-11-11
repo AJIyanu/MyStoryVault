@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#left {
+    margin-left: 2%;
+}
+
+#right {
+    margin-right: 5%;
+    display: flex;
+    gap: 10pt;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#editor-container {
+    height: auto;
+}
